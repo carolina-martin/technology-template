@@ -1,0 +1,61 @@
+# Ignore MySQL database data directory
+data/
+*.log
+*.pid
+*.err
+mysqldump.sql
+
+# Ignore MySQL configuration files
+my.cnf
+my.ini
+
+# Ignore MySQL query log
+*.query.log
+
+# Ignore MySQL backup files
+*.bak
+*.backup
+*.sql.gz
+*.sql.zip
+*.dump
+
+# Ignore MySQL binary log files
+*.bin
+*.index
+
+# Ignore MySQL socket and lock files
+mysql.sock
+mysql.lock
+
+# Ignore MySQL database dump files
+*.sql
+
+# Ignore MySQL error log
+error.log
+
+# Ignore MySQL auto-generated files
+auto.cnf
+
+# Ignore MySQL client history files
+mysql_history
+
+# Ignore MySQL data files
+*.frm
+*.MRG
+*.MYD
+*.MYI
+*.TRG
+*.TRN
+*.ARM
+*.ARZ
+*.CSM
+*.CSV
+*.opt
+
+# Ignore MySQL binary log files
+*.000
+*.log
+*.index
+
+# Ignore MySQL test database
+test_db/
