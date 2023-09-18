@@ -1,0 +1,23 @@
+name: SQL CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up PostgreSQL
+        uses: postgresql/actions/setup@v2
+        with:
+          postgresql-version: '13'
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Run SQL tests
+        run: |
+          psql -U postgres -d mydatabase -a -f tests/test.sql
