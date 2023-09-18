@@ -1,0 +1,1 @@
+SELECT greeting FROM hello;
