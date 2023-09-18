@@ -1,0 +1,10 @@
+my-sql-project/
+├── src/
+│   └── hello_world.sql
+├── tests/
+│   └── test.sql
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── README.md
+└── .gitignore
